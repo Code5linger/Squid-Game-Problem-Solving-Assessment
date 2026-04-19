@@ -35,11 +35,11 @@ function fizzBuzz(n) {
   return result;
 }
 
-fizzBuzz(1); // ["1"]
-fizzBuzz(3); // ["1","2","Fizz"]
-fizzBuzz(5); // ["1","2","Fizz","4","Buzz"]
-fizzBuzz(15); // includes "FizzBuzz" at 15
-fizzBuzz(10); // ends with "Buzz"
+console.log(fizzBuzz(1)); // ["1"]
+console.log(fizzBuzz(3)); // ["1","2","Fizz"]
+console.log(fizzBuzz(5)); // ["1","2","Fizz","4","Buzz"]
+console.log(fizzBuzz(15)); // includes "FizzBuzz" at 15
+console.log(fizzBuzz(10)); // ends with "Buzz"
 
 // ! Largest Number
 function findMax(nums) {
